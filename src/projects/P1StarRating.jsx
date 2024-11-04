@@ -8,7 +8,7 @@ const P1StarRating = () => {
 
   return (
     <div>
-      <div className="size dflex flex-col">
+      <div className="size dflex flex-col bg-[#e2fcff]">
         <h1 className="font-bold text-3xl text-[#f00]">Star Rating</h1>
         <div className="py-5 flex gap-2">
           {/* Since the array contains undefined values, because its just an array of empty slots we don't need to use this values hence its conventionally replace with an underscore (_) to indicate that the variable is unused */}
